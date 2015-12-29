@@ -1,0 +1,95 @@
+#container{
+  margin-right:100px;
+  position:relative;
+  margin-left:200px;
+}
+#logo{
+  display:block;
+  margin-right: auto;
+  /* margin-left: auto; */
+  box-shadow: 10px 10px 0px #888888;
+}
+
+body{
+  background-color:beige;
+}
+
+#intro div{
+  font-style:italic;
+}
+
+section#intro{
+  text-align: start;
+}
+
+#blockone{
+  /* display:block; */
+  margin-right:auto;
+  margin-left:auto;
+  height:3em;
+  width:3em;
+}
+
+#slideshow{
+  position:relative;
+  height:191px;
+  width:300px;
+
+}
+
+#slideshow img{
+  position:absolute;
+  top:0;
+  left:0;
+  z-index:8;
+  height:191px;
+  width:300px;
+}
+
+#slideshow .active{
+  z-index:10;
+}
+
+#slideshow img.last-active{
+  z-index:9;
+  width:300px;
+  height:191px;
+}
+#innerfooter{
+  text-align:center;
+}
+
+#ingredient{
+  list-style-type:none;
+}
+
+input[type=checkbox] + label{
+  color: black;
+  font-style: normal;
+}
+
+input[type=checkbox]:checked + label{
+  color: #ccc;
+  font-style:italic;
+}
+
+.imgtxt{
+  display:none;
+}
+
+.nav-bar{
+}
+
+.nav-bar li{
+  border-style:solid;
+  color:black;
+  border: 1px. 1px. 1px. 1px;
+  display:relative;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  list-style: none;
+  text-align:center;
+  margin-right:1250px;
+}
