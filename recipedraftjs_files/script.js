@@ -1,7 +1,7 @@
 $(document).ready(function(){
   $('#hide').on('click', function(){
     $('div.sidebar').toggle(500);
-    $('#hide').html($('#hide').text()== 'Hide'? 'Show' : 'Hide')
+    $('#hide').html($('#hide').text()== 'Hide Pictures'? 'Show Pictures' : 'Hide Pictures')
   })
 })
 /*toggle #hide html to show/hide*/

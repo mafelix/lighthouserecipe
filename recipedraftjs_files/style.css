@@ -77,7 +77,9 @@ input[type=checkbox]:checked + label{
   display:none;
 }
 
-.nav-bar{
+.nav-bar ul{
+  min-width: 1400px;
+  max-width: 1421px;
 }
 
 .nav-bar li{
