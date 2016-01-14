@@ -8,10 +8,24 @@
   margin-right: auto;
   /* margin-left: auto; */
   box-shadow: 10px 10px 0px #888888;
+  height:200px;
+  width:300px;
+}
+
+#footer{
+  text-align: center;
 }
 
 body{
   background-color:beige;
+}
+
+.sidebar{
+  border: solid;
+  height: 191px;
+  position: relative;
+  width:300px;
+  float: right;
 }
 
 #intro div{
@@ -77,6 +91,14 @@ input[type=checkbox]:checked + label{
   display:none;
 }
 
+.nav{
+  position: relative;
+  background-color: black;
+  height: 200px;
+}
+.ulingredients{
+  list-style-type: none;
+}
 .nav-bar ul{
   min-width: 1400px;
   max-width: 1421px;
